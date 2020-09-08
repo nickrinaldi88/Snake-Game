@@ -104,7 +104,7 @@ def gameOver(snake):
         for event in pygame.event.get(): # if we hit "x" to close out the game, close out the game.
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    exit()
+                    sys.exit()
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     main()
 
@@ -207,7 +207,7 @@ def main():
         for event in pygame.event.get(): # if we hit "x" to close out the game, close out the game.
             if event.type == pygame.QUIT:
                 pygame.quit()
-                exit()
+                sys.exit()
             if event.type == pygame.KEYDOWN:
                 if (event.key == pygame.K_LEFT and snake.direction != "right"):  # Each of these handles either arrow keys or WASD key events.
                     snake.direction = "left"
@@ -265,7 +265,7 @@ def main_menu(width, height):
         for event in pygame.event.get(): # if we hit "x" to close out the game, close out the game.
             if event.type == pygame.QUIT:
                 pygame.quit()
-                exit()
+                sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 main()
 
