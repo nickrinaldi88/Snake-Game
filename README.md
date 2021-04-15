@@ -8,7 +8,7 @@ A snake game written in Python 3.8
 * Python 3.8
 * pygame module
 
-## Execiting Program
+## Executing Program
 * Download main.py script and run from terminal window or text editor
 * Send me a private message, I will provide a link for a .app file I converted using py2app
 
